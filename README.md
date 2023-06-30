@@ -26,6 +26,11 @@ su -
   - a portion of physical volume, a hierarchy of structures is used to manage disk storage
   - every phy vol belongs to a volume grp OR used directly for virtual storage
 
+ **SUDO POLICIES + PASSWORD**
+ <img width="919" alt="Screenshot 2023-06-27 at 15 39 47" src="https://github.com/sue-vyen/Born2BeRoot/assets/130726863/9881f274-ccfc-4184-90da-a25a4b546623">
+
+<img width="854" alt="Screenshot 2023-06-30 at 16 50 07" src="https://github.com/sue-vyen/Born2BeRoot/assets/130726863/e422e95d-fd56-4a65-a32b-20e568169c3a">
+
 GID = group ID;
 
 **pewpew**
