@@ -49,3 +49,6 @@ command -> sudo addgroup (groupname)
    command -> getent group (groupname)
 to add user to grp:
 command -> sudo adduser (user) (groupname)
+
+**SHASUM**
+fb14527bce893f053d3827e2290e80507e47ba94  Born2beroot.vdi
