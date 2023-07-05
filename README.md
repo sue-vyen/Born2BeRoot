@@ -51,4 +51,4 @@ to add user to grp:
 command -> sudo adduser (user) (groupname)
 
 **SHASUM**
-a8169ab280f887150c368f5d72a9a67da0d263b9  Born2beroot.vdi
+08a891d863a9984209cb292df95fcbd57b03cfc7  Born2beroot.vdi
