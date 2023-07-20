@@ -25,6 +25,9 @@ su -
 - LOGICAL VOLUME MANAGEMENT (LVM)
   - a portion of physical volume, a hierarchy of structures is used to manage disk storage
   - every phy vol belongs to a volume grp OR used directly for virtual storage
+  - every volumer group has a virtual box
+    - virtual box sizes can vary and shirnk and expand depending on usage and purposes
+ - overview: BOX <- LVM <- VG <- LV
 
  **SUDO POLICIES + PASSWORD**
  <img width="919" alt="Screenshot 2023-06-27 at 15 39 47" src="https://github.com/sue-vyen/Born2BeRoot/assets/130726863/9881f274-ccfc-4184-90da-a25a4b546623">
@@ -32,6 +35,17 @@ su -
 <img width="854" alt="Screenshot 2023-06-30 at 16 50 07" src="https://github.com/sue-vyen/Born2BeRoot/assets/130726863/e422e95d-fd56-4a65-a32b-20e568169c3a">
 
 GID = group ID;
+UFW = uncomplicated firewall
+ - adds extra layer of protection
+ - protect comp / your network by controlling the incoming + outgoing internet traffic
+   - decides which connections are allowed + blocked
+SSH = secure shell
+- needed to generate to connect a host
+- code for your comp
+- securely connect encrypted to another computer over an untrusted network
+- ensures communications + data remain private + protected
+Cron = background process manager specified process will be executed at the time specified in the time
+
 
 **pewpew**
 sudogroot: swifer'MIAW'cinnamonroll2689
@@ -50,5 +64,9 @@ command -> sudo addgroup (groupname)
 to add user to grp:
 command -> sudo adduser (user) (groupname)
 
-**SHASUM**
+IF GONNA REDO AND THE SAME .vdi IS ALREADY CONNECTED TO A PORT
+rm ./.ssh/known-hosts
+
+
+**SHASUM** -> command that allows you to identify the integrity of a file using the SHA-1 hash check sum of a file
 08a891d863a9984209cb292df95fcbd57b03cfc7  Born2beroot.vdi
